@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <h1>Jokenpo</h1>
+    <div id="jogadores">
+        <div class="jogador">
+            <h2>Jogador 1</h2>
+            <button onclick="escolher(1, 'pedra')">Pedra</button>
+            <button onclick="escolher(1, 'papel')">Papel</button>
+            <button onclick="escolher(1, 'tesoura')">Tesoura</button>
+        </div>
+        <div class="jogador">
+            <h2>Jogador 2</h2>
+            <button onclick="escolher(2, 'pedra')">Pedra</button>
+            <button onclick="escolher(2, 'papel')">Papel</button>
+            <button onclick="escolher(2, 'tesoura')">Tesoura</button>
+        </div>
+    </div>
+    <div id="resultado">
+        <h2>Resultado:</h2>
+        <p id="vencedor">Aguardando escolhas...</p>
+    </div>
+</body>
+<script src="java.js"></script>
+</html>
